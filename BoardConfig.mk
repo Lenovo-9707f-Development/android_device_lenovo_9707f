@@ -1,8 +1,8 @@
 
 # Inherit from the proprietary version
--include vendor/lenovo/970f/BoardConfigVendor.mk
+-include vendor/lenovo/9707f/BoardConfigVendor.mk
 
-DEVICE_PATH := device/lenovo/970f
+DEVICE_PATH := device/lenovo/9707f
 BOARD_VENDOR := lenovo
 
 
