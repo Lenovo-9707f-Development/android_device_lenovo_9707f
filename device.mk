@@ -164,4 +164,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
 
 # Inherit vendor
-$(call inherit-product, vendor/lenovo/TB-9707F/TB-9707F-vendor.mk)
+$(call inherit-product, vendor/lenovo/9707f/9707f-vendor.mk)
