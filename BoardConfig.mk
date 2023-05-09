@@ -3,7 +3,7 @@
 -include vendor/lenovo/9707f/BoardConfigVendor.mk
 
 DEVICE_PATH := device/lenovo/9707f
-9707F_PREBUILT := device/xiaomi/9707f-prebuilt
+9707F_PREBUILT := device/lenovo/9707f-prebuilt
 BOARD_VENDOR := lenovo
 
 BUILD_BROKEN_DUP_RULES := true
@@ -76,7 +76,7 @@ BOARD_PREBUILT_DTBIMAGE_DIR := $(9707F_PREBUILT)/kernel/dtb
 
 TARGET_KERNEL_CONFIG := vendor/9707F_user_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_SOURCE := kernel/xiaomi/nabu
+TARGET_KERNEL_SOURCE := kernel/lenovo/9707f
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
